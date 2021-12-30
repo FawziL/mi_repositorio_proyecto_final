@@ -278,7 +278,7 @@ footer {
   background-color: #0ac56e; }
 
 /*/////// responsive, index//////////*/
-@media (max-width: 575px) {
+@media (max-width: 650px) {
   body {
     font-size: 13px; }
   header {
@@ -287,28 +287,25 @@ footer {
     max-height: 120px;
     max-width: 150px; }
   .letrasParaTitulos {
-    font-size: 14px;
+    font-size: 18px;
     color: #350c81; }
   .letrasMedianas {
-    font-size: 14px; }
+    font-size: 15px; }
   .letrasDeLinks {
-    font-size: 14px; }
+    font-size: 16px; }
   .subTitulos {
-    font-size: 14px;
+    font-size: 15px;
     color: #350c81; }
   #recomendaciones {
     display: flex;
     border-style: solid;
     border-radius: 5%;
     justify-content: center;
-    background-color: mediumturquoise;
     width: 250px; }
   .carrusel {
     height: 300px; }
   .btn {
-    width: 65px; }
-  .label {
-    max-width: 110px; } }
+    width: 65px; } }
 
 /*///////  color header, footer, nav //////////*/
 header {
