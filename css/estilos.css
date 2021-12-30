@@ -30,7 +30,6 @@ body {
 nav {
   border-style: solid;
   display: flex;
-  position: sticky;
   padding: 10px;
   top: -1px; }
 
@@ -240,7 +239,7 @@ div img {
   padding: 0px; }
 
 .carrusel {
-  height: 750px; }
+  height: 650px; }
 
 .imgModal {
   height: 480px;
@@ -283,12 +282,12 @@ footer {
 .botonVerde {
   background-color: #0ac56e; }
 
-/*/////// responsive, index//////////*/
+/*/////// responsive//////////*/
 @media (max-width: 650px) {
   body {
     font-size: 13px; }
   header {
-    height: 140px; }
+    height: 120px; }
   header img {
     max-height: 120px;
     max-width: 150px; }
@@ -343,6 +342,140 @@ footer {
 
   }
 
+
+  @media (min-width: 651px) and (max-width: 900px) {
+    body {
+      font-size: 13px; }
+  
+    header img {
+      width: 220px;
+      height: 110px; }
+    .letrasParaTitulos {
+      font-size: 24px;
+      color: #350c81; }
+    .letrasMedianas {
+      font-size: 18px; }
+    .letrasDeLinks {
+      font-size: 16px; }
+    .subTitulos {
+      font-size: 18px;
+      color: #350c81; }
+    #recomendaciones {
+      display: flex;
+      border-style: solid;
+      border-radius: 5%;
+      justify-content: center;
+      width: 250px; }
+    .carrusel {
+      height: 500px; }
+    .btn {
+      width: 65px; }
+    .letrasGrandes{
+      font-size: 20px; 
+    }
+    #productos-Buscados {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 500px;
+      margin: 10px; 
+      }
+  
+    .grid {
+      display: grid;
+      grid-template-areas: "categorias categorias producto producto producto producto producto" 
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto";}
+  
+    #categorias {
+      width: 145px;}
+  
+    }
+  
+  /*/////// responsive3//////////*/
+  @media (min-width: 901px) and (max-width: 1000px) {
+
+    #productos-Buscados {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 600px;
+      margin: 10px; 
+       }
+  
+    .grid {
+      display: grid;
+      grid-template-areas: "categorias categorias producto producto producto producto producto" 
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto"
+    "categorias categorias producto producto producto producto producto";}
+  
+    #categorias {
+      width: 155px;
+}
+  
+    }
+  /*/////// responsive3//////////*/
+    @media (min-width: 1001px) and (max-width: 1100px){
+
+      #productos-Buscados {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 700px;
+        margin: 10px; 
+       }
+    
+      .grid {
+        display: grid;
+        grid-template-areas: "categorias categorias producto producto producto producto " 
+      "categorias categorias producto producto producto producto "
+      "categorias categorias producto producto producto producto "
+      "categorias categorias producto producto producto producto "
+      "categorias categorias producto producto producto producto "
+      "categorias categorias producto producto producto producto ";}
+    
+      #categorias {
+        font-size: 15px;
+        padding: 10px;
+        width: 160px;
+        margin-top: 5px; }
+    
+      }
+
+  /*/////// responsive3//////////*/
+  @media (min-width: 1101px) {
+
+    #productos-Buscados {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 1140px;
+      margin: 10px; 
+     }
+  
+    .grid {
+      display: grid;
+      grid-template-areas: "categorias categorias producto producto producto producto " 
+    "categorias categorias producto producto producto producto "
+    "categorias categorias producto producto producto producto "
+    "categorias categorias producto producto producto producto "
+    "categorias categorias producto producto producto producto "
+    "categorias categorias producto producto producto producto ";}
+  
+    #categorias {
+      font-size: 15px;
+      padding: 10px;
+      width: 160px;
+      margin-top: 5px; }
+  
+    }
+  
 /*///////  color header, footer, nav //////////*/
 header {
   background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0); }
