@@ -55,8 +55,12 @@ nav a {
   font-size: 18px; }
 
 .letrasMedianas {
-  font-size: 22px; }
-
+  font-size: 22px; 
+}
+.letrasGrandes{
+  font-size: 26px; 
+  color: black;
+}
 .letraspequenas{
   font-size: 20px;
 }
@@ -72,13 +76,15 @@ nav a {
 
 .puntos {
   font-size: 40px; }
-
+p{
+  color: black;
+}
 /*SECCIONES DE PAGINA///////////////////////////////////////////// */
 #section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #030020;
+  color: black;
   padding: 15px; }
 
 .form {
@@ -159,7 +165,7 @@ section {
 /* GRIDD//////////////////////////////////////// */
 .grid {
   display: grid;
-  grid-template-areas: "categorias titulo titulo titulo"
+  grid-template-areas: "categorias producto producto producto"
  "categorias producto producto producto"
  "categorias producto producto producto"
  "categorias producto producto producto"
@@ -180,15 +186,15 @@ section {
   flex-direction: column;
   justify-content: space-around; }
 
-#titulo {
-  grid-area: titulo;
+.titulo {
   border-style: solid;
-  padding: 10px;
-  margin-top: 5px;
+  padding-bottom: 20px;
+  margin: 10px;
   background-image: linear-gradient(to right, #217b9e, #27ada9, #74cdf0);}
 
 #area-Productos {
   grid-area: producto;
+  margin-top: 5px;
   border-style: solid; }
 
 /*RESAGADOS///////////////////////////////////////////// */
@@ -305,7 +311,37 @@ footer {
   .carrusel {
     height: 300px; }
   .btn {
-    width: 65px; } }
+    width: 65px; }
+  .letrasGrandes{
+    font-size: 20px; 
+  }
+  #productos-Buscados {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 305px;
+    margin: 10px; }
+
+  .grid {
+    display: grid;
+    grid-template-areas: "categorias categorias producto producto " 
+  "categorias categorias producto producto "
+  "categorias categorias producto producto "
+  "categorias categorias producto producto "
+  "categorias categorias producto producto "
+  "categorias categorias producto producto ";
+    grid-template-columns: 12% auto 20%;
+    grid-template-rows: 1fr 50px 2fr 3fr 60px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
+
+  #categorias {
+    font-size: 15px;
+    padding: 10px;
+    width: 145px;
+    margin-top: 5px; }
+
+  }
 
 /*///////  color header, footer, nav //////////*/
 header {
