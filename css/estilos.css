@@ -278,7 +278,7 @@ footer {
   background-color: #0ac56e; }
 
 /*/////// responsive, index//////////*/
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   body {
     font-size: 13px; }
   header {
