@@ -3,21 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="description" content="Página oficial de ventas, tuconsesionarioonline, donde podrás comprar el auto de tus sueños a un gran precio">
     <meta name="keywords"  content="venta de carros, vehiculos nuevos, automoviles usados, vehiculos en venta, automoviles en venta">
-    <title>Venta de carros</title>
+    <title>Tus carros pedidos</title>
 </head>
 
 <body>
     <header class="headers">
 
-        <div id="logo"> <img src="img/logo.png" alt="" class="agrandar img-rounded"></div>   
+        <div id="logo"> <img src="../img/logo.png" alt="" class="agrandar"></div>   
 
         <div id="tituloP"> <h1 class="letrasParaTitulos">¡Somos el concesionario de más demanda de Latam!</h1> </div>
    
-        <div id="subTitulo"> <h2 class="letrasMedianas">¡Síguenos en nuestras redes sociales!</h2> 
+        <div id="subTitulo"> <h2 class="letrasMedianas">¡Síguenos en nuestras redes sociales!</h2>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
             </svg>
@@ -27,15 +27,16 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
                 <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
             </svg>
-              
         </div>
-        
 
     </header>
 
+
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand padding-left-menu" href="index.html">Inicio</a>
+          <a class="navbar-brand padding-left-menu" href="../index.html">Menú</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,7 +47,7 @@
                   Productos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item " href="htmls/productos.html">Categorías de carros</a></li>
+                    <li><a class="dropdown-item " href="productos.html">Categorías de carros</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item " href="#">Toyota</a></li>
                     <li><a class="dropdown-item " href="#">Ferrari</a></li>
@@ -57,13 +58,10 @@
                 </ul>
               </li>
               <li class="nav-item padding-left">
-                <a class="nav-link letrasDeLinks  active" aria-current="page" href="htmls/soporte.html">Soporte</a>
+                <a class="nav-link letrasDeLinks  active" aria-current="page" href="soporte.html">Soporte</a>
               </li>
               <li class="nav-item padding-left">
-                <a class="nav-link letrasDeLinks active" aria-current="page" href="htmls/usuario.html">Usuario</a>
-              </li>
-              <li class="nav-item padding-left">
-                <a class="nav-link letrasDeLinks active" aria-current="page" href="htmls/tusPedidos.html">Pedidos</a>
+                <a class="nav-link letrasDeLinks active" aria-current="page" href="usuario.html">Usuario</a>
               </li>
             </ul>
             <div class="idioma padding">
@@ -92,124 +90,77 @@
         </div>
       </nav>
 
-      
-    <h2 class="subTitulos centrar fondo noMargin">Productos más buscados</h2>
 
+            <h2 class="subTitulos centrar fondo noMargin">Tus pedidos</h2>
 
-    <div id="carouselExampleCaptions" class="carousel slide fondo padding-top" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/carro2.jpg" class="d-block w-100 carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Carro 1</p>
-                  <p>Información.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/carro3.jpg" class="d-block w-100 carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Carro 2</p>
-                  <p>Información.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/carro1.jpg" class="d-block w-100 carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Carro 3</p>
-                  <p>Información.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-    </div>
+    <section id="productos" class="fondo"> 
+        <article id="carrito">
+            <div>
+                <h3 class="subTitulos padding">En tu carrito</h3>
+                    <p>Carro1</p>
+                    <img src="../img/carro1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-uno">
+                    <p>Carro2</p>
+                    <img src="../img/carro2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-dos">
+                    <p>Carro3</p>
+                    <img src="../img/carro3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-tres">
 
-    <div id="productos" class="fondo">
-        <section>
-            <h3 class="subTitulos">Basado en tus gustos</h3>
-            <article id="recomendaciones">
-                <ul>
-                    <li>Carro1</li>
-                    <img src="img/carro1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-uno">
-                    <li>Carro1</li>
-                    <img src="img/carro1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-uno">
-                    <li>Carro1</li>
-                    <img src="img/carro1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-uno">
                     <div class="modal fade" id="carro-uno">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content"> 
-                                <img src="img/carro1.jpg" alt="" class="imgModal">
-                                <p>Precio: 5k</p>
+                                <img src="../img/carro1.jpg" alt="" class="imgModal">
+                                <p>Precio: 5peso</p>
                             </div>
                         </div>
                     </div>
-                </ul>
-            </article>
-        </section>
 
-        <section>
-            <h3 class="subTitulos">¡Con oferta!</h3> 
-            <article id="recomendaciones">
-                <ul>
-                    <li>Carro2</li>
-                    <img src="img/carro2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-dos">
-                    <li>Carro2</li>
-                    <img src="img/carro2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-dos">
-                    <li>Carro2</li>
-                    <img src="img/carro2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-dos">
                     <div class="modal fade" id="carro-dos">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content"> 
-                                <img src="img/carro2.jpg" alt="" class="imgModal">
-                                <p>Precio: 5k</p>
+                                <img src="../img/carro2.jpg" alt="" class="imgModal">
+                                <p>Precio: 5peso</p>
                             </div>
                         </div>
                     </div>
-                </ul>
-            </article>
-        </section>
-            
-        <section>
-            <h3 class="subTitulos">Más vendidos</h3>
-            <article id="recomendaciones">
-                <ul>
-                    <li>Carro3</li>
-                    <img src="img/carro3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-tres">
-                    <li>Carro3</li>
-                    <img src="img/carro3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-tres">
-                    <li>Carro3</li>
-                    <img src="img/carro3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#carro-tres">
+
                     <div class="modal fade" id="carro-tres">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content"> 
-                                <img src="img/carro3.jpg" alt="" class="imgModal">
-                                <p>Precio: 5k</p>
+                                <img src="../img/carro3.jpg" alt="" class="imgModal">
+                                <p>Precio: 5peso</p>
                             </div>
                         </div>
                     </div>
-                </ul>  
-            </article>
-        </section>
-    </div>
+            </div>
+        </article>
 
-
-
+        <article id="compras">
+            <h2 class="subTitulos padding">Información del producto que clickeste</h2>
+            <table border="5">
+                <tr>
+                    <td>Valoración:</td>
+                    <td>Características:</td>
+                </tr>
+                <td>4 estrellas</td>
+                <td> 
+                    <ul> 
+                        <li>Es un carro</li>
+                        <li>5 pesos</li>
+                        <li>Nuevo</li>
+                    </ul>
+                </td> 
+            </table>
+            <div class="padding">
+                <input type="submit" value="Eliminar producto" class="agrandarBotones botonRojo"/>
+                <input type="reset" value="Pagar" class="agrandarBotones botonVerde"/>  
+            </div>
+        </article>
+    </section>
+    
     <footer>
         <div class="container">
             <div class="row padding-top">
                 <div class="col-md-4" >
-                    <img src="img/logo.png" alt="">
+                    <img src="../img/logo.png" alt="">
                 </div>
                 <div class="col-md-4">
                     <p >Sí quieres saber más de nosotros, te invitamos a darle click</p>
@@ -225,7 +176,7 @@
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
                         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                    </svg>  
+                    </svg>   
                 </div>
             </div>
         </div>
@@ -234,6 +185,7 @@
             <p>Mipaginadeventas © 2021-2021 *  Desarrollado por Lutfallah F</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
