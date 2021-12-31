@@ -112,7 +112,7 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
-#recomendaciones {
+.recomendaciones {
   display: flex;
   border-style: solid;
   border-radius: 10%;
@@ -287,7 +287,7 @@ footer {
   .subTitulos {
     font-size: 15px;
     color: #350c81; }
-  #recomendaciones {
+  .recomendaciones {
     display: flex;
     border-style: solid;
     border-radius: 5%;
@@ -355,7 +355,7 @@ footer {
     .subTitulos {
       font-size: 18px;
       color: #350c81; }
-    #recomendaciones {
+    .recomendaciones {
       display: flex;
       border-style: solid;
       border-radius: 5%;
@@ -525,5 +525,8 @@ footer img {
   font-weight: bold; 
 }
 .productosPrueba p{
+  margin: 0px;
+}
+.recomendaciones p{
   margin: 0px;
 }
