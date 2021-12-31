@@ -43,7 +43,7 @@ h1, h2 {
 
 nav a {
   text-decoration: none;
-  color: #00090a;
+  color: black;
   width: 20%; }
 
 /*TEXTOS Y FONDOS///////////////////////////////////////////// */
@@ -155,8 +155,8 @@ section {
 
 .botonesUsuarios {
   margin: 15px;
-  height: 70px;
-  width: 500px;
+  height: 60px;
+  width: 450px;
   background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
   border-style: solid;
   border-radius: 5%; }
@@ -203,12 +203,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: #00090a;
+  color: black;
   font-weight: bold; }
 
 div a {
   text-decoration: none;
-  color: #00090a; }
+  color: black; }
 
 .padding {
   padding: 10px; }
@@ -224,7 +224,7 @@ div img {
   padding-right: 30px;
   padding-left: 30px;
   font-size: 18px;
-  color: #00090a; }
+  color: black; }
 
 .idioma {
   padding-right: 10px; }
@@ -265,22 +265,6 @@ footer {
   border-radius: 100%;
   padding: 10px; }
 
-/* BOTONES/////////////////////////////////////////////// */
-.agrandarBotones {
-  transition: height 2s, width 1s;
-  padding: 2px; }
-
-.agrandarBotones:hover {
-  width: 150px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 15%; }
-
-.botonRojo {
-  background-color: #dc3545; }
-
-.botonVerde {
-  background-color: #0ac56e; }
 
 /*/////// responsive//////////*/
 @media (max-width: 650px) {
@@ -401,21 +385,11 @@ footer {
   
     #categorias {
       width: 100%;}
-  
-
-    .botonesUsuarios {
-      margin: 15px;
-      height: 60px;
-      width: 450px;
-      background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
-      border-style: solid;
-      border-radius: 5%; }
     
     .letraspequenas{
       font-size: 18px;
     }
 
-      
     .padding-left-peq {
       padding-top: 10px; }
   }
