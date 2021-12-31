@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center; }
 
-#tituloP {
+#tituloP{
   grid-area: tituloP;
   display: flex;
   padding-top: 15px; }
@@ -130,10 +130,10 @@ section {
   justify-content: center;
   flex-direction: column; }
 
-#productos-Productos {
+.productos-Productos {
   display: flex; }
 
-#productos-Buscados {
+.productos-Buscados {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -141,9 +141,11 @@ section {
   width: 100%;
   margin: 10px; }
 
-#productosPrueba {
+.productosPrueba {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 180px;
+  height: 200px; }
 
 /* Botones, inicio de sesion///////////////////////////////////////////// */
 #usuarios {
@@ -246,7 +248,7 @@ div img {
   width: 500px;
   padding: 15px; }
 
-.padding-top {
+.padding-top{
   padding-top: 10px; }
 
 /* FOOTER/////////////////////////////////////////////// */
@@ -298,7 +300,7 @@ footer {
   .letrasGrandes{
     font-size: 20px; 
   }
-  #productos-Buscados {
+  .productos-Buscados {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -366,7 +368,7 @@ footer {
     .letrasGrandes{
       font-size: 20px; 
     }
-    #productos-Buscados {
+    .productos-Buscados {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
@@ -396,7 +398,7 @@ footer {
   /*/////// responsive3//////////*/
   @media (min-width: 901px) and (max-width: 1000px) {
 
-    #productos-Buscados {
+    .productos-Buscados {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
@@ -422,7 +424,7 @@ footer {
   /*/////// responsive3//////////*/
     @media (min-width: 1001px) and (max-width: 1100px){
 
-      #productos-Buscados {
+      .productos-Buscados {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -449,7 +451,7 @@ footer {
   /*/////// responsive3//////////*/
   @media (min-width: 1101px) {
 
-    #productos-Buscados {
+    .productos-Buscados {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
@@ -517,4 +519,11 @@ footer img {
 
 .vh{
   height: 50vh;
+}
+.precios{
+  font-size: 22px;
+  font-weight: bold; 
+}
+div p{
+  margin: 0px;
 }
