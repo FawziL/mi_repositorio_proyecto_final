@@ -318,7 +318,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 305px;
+    width: 100%;
     margin: 10px; }
 
   .grid {
@@ -328,19 +328,26 @@ footer {
   "categorias categorias producto producto "
   "categorias categorias producto producto "
   "categorias categorias producto producto "
-  "categorias categorias producto producto ";
-    grid-template-columns: 12% auto 20%;
-    grid-template-rows: 1fr 50px 2fr 3fr 60px;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px; }
+  "categorias categorias producto producto "; }
 
   #categorias {
     font-size: 15px;
     padding: 10px;
-    width: 145px;
+    width: 100%;
     margin-top: 5px; }
 
+  .botonesUsuarios {
+    margin: 15px;
+    height: 50px;
+    width: 350px;
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+    border-style: solid;
+    border-radius: 5%; }
   }
+  .letraspequenas{
+    font-size: 16px;
+  }
+  
 
 
   @media (min-width: 651px) and (max-width: 900px) {
@@ -377,7 +384,7 @@ footer {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      width: 500px;
+      width: 100%;
       margin: 10px; 
       }
   
@@ -391,7 +398,20 @@ footer {
     "categorias categorias producto producto producto producto producto";}
   
     #categorias {
-      width: 145px;}
+      width: 100%;}
+  
+
+    .botonesUsuarios {
+      margin: 15px;
+      height: 60px;
+      width: 450px;
+      background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+      border-style: solid;
+      border-radius: 5%; }
+    
+    .letraspequenas{
+      font-size: 18px;
+    }
   
     }
   
@@ -402,7 +422,7 @@ footer {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      width: 600px;
+      width: 100%;
       margin: 10px; 
        }
   
@@ -416,7 +436,7 @@ footer {
     "categorias categorias producto producto producto producto producto";}
   
     #categorias {
-      width: 155px;
+      width: 100%;
 }
   
     }
@@ -427,7 +447,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        width: 700px;
+        width: 100%;
         margin: 10px; 
        }
     
@@ -443,7 +463,7 @@ footer {
       #categorias {
         font-size: 15px;
         padding: 10px;
-        width: 160px;
+        width: 100%;
         margin-top: 5px; }
     
       }
@@ -455,7 +475,7 @@ footer {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      width: 1140px;
+      width: 100%;
       margin: 10px; 
      }
   
@@ -471,7 +491,7 @@ footer {
     #categorias {
       font-size: 15px;
       padding: 10px;
-      width: 160px;
+      width: 100%;
       margin-top: 5px; }
   
     }
