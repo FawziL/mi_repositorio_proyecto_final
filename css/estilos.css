@@ -119,17 +119,6 @@ section {
   justify-content: center;
   width: 300px; }
 
-#carrito {
-  display: flex;
-  border-style: solid; }
-
-#compras {
-  display: flex;
-  border-style: solid;
-  border-radius: 10%;
-  justify-content: center;
-  flex-direction: column; }
-
 .productos-Productos {
   display: flex; }
 
