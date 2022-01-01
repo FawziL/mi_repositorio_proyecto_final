@@ -486,6 +486,20 @@ footer {
 nav {
   background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0); }
 
+thead{
+  background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+  border-style: solid;
+  height: 50px;
+  padding-bottom: 10px;
+}
+table{
+  width: 100%;
+}
+
+td img{
+  padding: 10px;
+}
+
 select {
   background-color: #eee8e8; }
 
